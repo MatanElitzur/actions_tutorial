@@ -1,5 +1,5 @@
 name: First Workflow
-on: workflow_dispacth # workflow_dispacth for manualy trigger this work flow
+on: workflow_dispatch # workflow_dispatch for manualy trigger this work flow
 jobs:
   first-job:   # you can write every name
     runs-on: ubuntu-latest
