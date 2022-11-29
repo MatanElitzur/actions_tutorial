@@ -5,7 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greetings #  you can write every name
-        run: echo "Hello world"
+        run: |
+              echo "Hello world"
+              echo "My name is Matan"
       - name: Print goodbye #  you can write every name
         run: echo "Done - bye!"
         
